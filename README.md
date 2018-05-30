@@ -5,11 +5,11 @@ _приложение Notepad++_
 ### 1. Удалить все пустые строки.
 ***
 Я использовала выражение \n\r и заменила на \0, удалилились все пустые строки. 
-(https://github.com/Dzestelova/hw9/blob/master/1.jpg?raw=true)
+![alt-текст](https://github.com/Dzestelova/hw9/blob/master/1.jpg?raw=true)
 
 
 Так как остались пустые строки, я решила,использовала регулярное выражение ^\s*$, тк подумала, что там есть пробелы и удалила пустые строки, в которых содержится только пробел. 
-(https://github.com/Dzestelova/hw9/blob/master/1.2.jpg?raw=true)
+![alt-текст](https://github.com/Dzestelova/hw9/blob/master/1.2.jpg?raw=true)
 
 ***
 ### 2. Найти всех князей и города, имя и название которых оканчивается на "слав".
@@ -17,17 +17,17 @@ _приложение Notepad++_
 Я использовала выражение [А-Я]+\w+слав+\w+ чтобы найти имена князей и города, содержащих в себе "слав".
 
 У меня получилось 592 вхождения. 
-(https://github.com/Dzestelova/hw9/blob/master/2.jpg?raw=true)
+![alt-текст](https://github.com/Dzestelova/hw9/blob/master/2.jpg?raw=true)
 ***
 ### 3. Найти все упоминания Новгорода. Учтите, что написание может быть разным.
 ***
 Я использовала регулярное выражение (Новѣ?город[а-я]?|Новъ?город[а-я]?|Новгородц[а-я]?|Новагород[а-я]?|Новугород[а-я]?|Новгород[а-я]?) чтобы найти все упоминания Новгорода.
 
 У меня получилось 59 вхождений. 
-(https://github.com/Dzestelova/hw9/blob/master/3.jpg?raw=true)
+![alt-текст](https://github.com/Dzestelova/hw9/blob/master/3.jpg?raw=true)
 ### Бонусное задание
 ***
 По очереди вставляла пробелы после необходимых знаков препинания.
-(https://github.com/Dzestelova/hw9/blob/master/b1.jpg?raw=true)
-(https://github.com/Dzestelova/hw9/blob/master/b2.jpg?raw=true)
-(https://github.com/Dzestelova/hw9/blob/master/b3.jpg?raw=true)
+![alt-текст](https://github.com/Dzestelova/hw9/blob/master/b1.jpg?raw=true)
+![alt-текст](https://github.com/Dzestelova/hw9/blob/master/b2.jpg?raw=true)
+![alt-текст](https://github.com/Dzestelova/hw9/blob/master/b3.jpg?raw=true)
